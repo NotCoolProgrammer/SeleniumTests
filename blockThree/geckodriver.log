@@ -1,0 +1,19 @@
+1622974513982	geckodriver	INFO	Listening on 127.0.0.1:44727
+1622974513987	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6oOcyA"
+1622974514807	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6oOcyA/search.json.mozlz4", (void 0)))
+1622974516503	Marionette	INFO	Listening on port 33755
+1622974516611	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1622472680, line 6203: unreachable code after return statement
+1622974534050	Marionette	INFO	Stopped listening on port 33755
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622974801756	geckodriver	INFO	Listening on 127.0.0.1:56093
+1622974801761	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileng0dp2"
+1622974802346	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileng0dp2/search.json.mozlz4", (void 0)))
+1622974803891	Marionette	INFO	Listening on port 46557
+1622974803987	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1622974805982	Marionette	INFO	Stopped listening on port 46557
